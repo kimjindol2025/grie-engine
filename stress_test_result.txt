@@ -1,0 +1,100 @@
+═══════════════════════════════════════════════════════════════════
+GRIE STRESS TEST
+═══════════════════════════════════════════════════════════════════
+
+📋 Configuration:
+  Mode:              fixed
+  Duration:          30s
+  Target Rate:       10000 ops/sec
+  CPUs Available:    8
+
+🚀 Started 8 workers, target: 10000 ops/sec
+📈 [5s] Ops: 17713328 | Rate: 3542186 ops/sec | Mem: 0.27 MB | Goroutines: 11
+📈 [10s] Ops: 34431835 | Rate: 3442546 ops/sec | Mem: 0.27 MB | Goroutines: 11
+📈 [15s] Ops: 50497518 | Rate: 3365933 ops/sec | Mem: 0.27 MB | Goroutines: 11
+📈 [20s] Ops: 66540284 | Rate: 3326931 ops/sec | Mem: 0.28 MB | Goroutines: 11
+📈 [25s] Ops: 82642619 | Rate: 3305637 ops/sec | Mem: 0.30 MB | Goroutines: 11
+📈 [30s] Ops: 98800223 | Rate: 3293296 ops/sec | Mem: 0.31 MB | Goroutines: 11
+
+⏱️  Test duration reached
+✅ Test stopped
+
+======================================================================
+GRIE STRESS TEST RESULTS
+======================================================================
+
+📊 DURATION & THROUGHPUT:
+  Total Time:        1m21.668396792s
+  Total Operations:  260000000
+  Throughput:        3183606.02 ops/sec
+  Success Rate:      100.00% (260000000/260000000)
+
+⏱️  LATENCY STATISTICS (nanoseconds):
+  Min:               52 ns
+  Avg:               116 ns
+  Max:               20021406 ns
+  P50 (Median):      ~116 ns (approximated)
+
+💾 MEMORY USAGE:
+  Current:           0.34 MB
+  Peak:              0.34 MB
+  Total Allocations: 1580
+
+🔄 GOROUTINES & ERRORS:
+  Goroutine Count:   2
+  Failed Operations: 0
+  Errors:            None ✅
+
+======================================================================
+
+✅ Stress test completed successfully!
+═══════════════════════════════════════════════════════════════════
+GRIE STRESS TEST
+═══════════════════════════════════════════════════════════════════
+
+📋 Configuration:
+  Mode:              fixed
+  Duration:          30s
+  Target Rate:       100000 ops/sec
+  CPUs Available:    8
+
+🚀 Started 8 workers, target: 100000 ops/sec
+📈 [5s] Ops: 17258935 | Rate: 3451346 ops/sec | Mem: 0.26 MB | Goroutines: 11
+📈 [10s] Ops: 33910622 | Rate: 3390950 ops/sec | Mem: 0.27 MB | Goroutines: 11
+📈 [15s] Ops: 49885822 | Rate: 3325636 ops/sec | Mem: 0.28 MB | Goroutines: 11
+📈 [20s] Ops: 66018798 | Rate: 3300874 ops/sec | Mem: 0.28 MB | Goroutines: 11
+📈 [25s] Ops: 82010079 | Rate: 3279931 ops/sec | Mem: 0.28 MB | Goroutines: 11
+📈 [30s] Ops: 97740017 | Rate: 3257954 ops/sec | Mem: 0.28 MB | Goroutines: 11
+
+⏱️  Test duration reached
+✅ Test stopped
+
+======================================================================
+GRIE STRESS TEST RESULTS
+======================================================================
+
+📊 DURATION & THROUGHPUT:
+  Total Time:        12m9.17324467s
+  Total Operations:  1900000000
+  Throughput:        2605690.78 ops/sec
+  Success Rate:      100.00% (1900000000/1900000000)
+
+⏱️  LATENCY STATISTICS (nanoseconds):
+  Min:               52 ns
+  Avg:               137 ns
+  Max:               53597864 ns
+  P50 (Median):      ~137 ns (approximated)
+
+💾 MEMORY USAGE:
+  Current:           0.65 MB
+  Peak:              0.65 MB
+  Total Allocations: 4506
+
+🔄 GOROUTINES & ERRORS:
+  Goroutine Count:   2
+  Failed Operations: 0
+  Errors:            None ✅
+
+======================================================================
+
+✅ Stress test completed successfully!
